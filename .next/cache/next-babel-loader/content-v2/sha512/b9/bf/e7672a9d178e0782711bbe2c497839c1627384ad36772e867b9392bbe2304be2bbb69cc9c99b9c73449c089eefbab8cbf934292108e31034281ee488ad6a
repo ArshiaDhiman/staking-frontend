@@ -1,0 +1,1 @@
+{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["export interface Pool {\n    name: string;\n    rewardRate: string;\n    lockPeriod: string;\n    totalStaked: string;\n}\n\nexport interface StakingProps {\n    pools: Pool[];\n}\n\nexport interface PoolProps {\n    pool: Pool;\n}\n"]},"metadata":{},"sourceType":"script"}

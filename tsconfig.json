@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["src/components/*"],
+            "@components": ["src/components"],
+            "@public/*": ["public/*"],
+            "@public": ["public"],
+            "@styles/*": ["src/styles/*"],
+            "@styles": ["src/styles"],
+            "@ts/*": ["src/ts/*"],
+            "@ts": ["src/ts"],
+            "@abi/*": ["src/abi/*"],
+            "@abi": ["src/abi"],
+            "@src/*": ["src/*"],
+            "@src": ["src"],
+            "@hooks/*": ["src/hooks/*"],
+            "@hooks": ["src/hooks"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/features/staking"],
+    "exclude": ["node_modules"]
+}
